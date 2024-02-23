@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Smart School</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+    <link href="img/favicon.ico" rel="icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Red+Rose:wght@600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <style type="text/css">
+        .topnav {
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-left: 10px;
+            background-color: #DCEEFF;
+            overflow: hidden;
+            height: 40px;
+            padding: 8px;
+        }
+ 
+        .bottomnav {
+            margin-right: 10px;
+            margin-left: 10px;
+            background-color: #E5E5E5;
+            overflow: hidden;
+            height: 40px;
+            padding: 5px;
+        }
+ 
+        a {
+            color: black;
+            padding-right: 120px;
+        }
+        .buttonn {
+            border-radius: 6px;
+            moz-border-radius: 6px;
+            webkit-border-radius: 4px;
+            height: 30px;
+            width: 240px; 
+            border:1px #245ec6 solid;
+        }
+
+        .button1 {border-radius: 6px;}
+        .button2 {border-radius: 6px; width: 80px;}
+    </style>
+</head>
+
+<body>
+    <div class="topnav">
+        <a class="active" href="#" style="color: rgb(67, 107, 7); font-size: large;">SMART SCHOOL</a>
+        <button class="buttonn button1">Under Implementation Track Process</button>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+        <button class="buttonn button2">Click Me</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a class="active" href="#">AY: 2023-2024</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <i class="fa fa-home"></i>&nbsp;&nbsp;&nbsp;
+        <i class="fa fa-search"></i>&nbsp;&nbsp;&nbsp;
+        <i class="fa fa-bell"></i>&nbsp;&nbsp;&nbsp;
+        <i class="fa fa-user"></i>&nbsp;&nbsp;&nbsp;
+    </div>
+    <div class="bottomnav">
+        <a class="active" href="#">Staff Details</a>
+        <a href="#">Biometric Details</a>
+        <a href="#">Staff</a>
+        <a href="#">Staff Attendance</a>
+        <a href="#">Staff Leaves</a>
+        <a href="#">Report</a>
+        <a href="#">Feedback</a>
+    </div>
+    <br>
+    <hr>
+
+    <button class="buttonn button1"><- Back</button>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+        
+    <p style="display: block; color: rgb(14, 33, 240); font-size: 25px; text-align: center;">ENROLL NEW STAFF </p>
+    <hr>
+    <p style="display: block; color: black; font-size: 25px; text-align: center;">BRANCH: SHAHEEN COLLEGE </p>
+    <p style="display: block; color: black; font-size: 20px; background-color: aqua;">Personal Details</p>
+    <section class="forms">
+    <div class="container-fluid py-5" id="sliver">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s" id="appoinment">
+                    <div class="row g-3">
+                        <div class="col-sm-6">
+                            <div class="form-floating">
+                                <p>First Name*: </p>
+                                <input type="text" class="form-control" id="name" placeholder="First Name">
+                                <!-- <label for="name">First Name *</label> -->
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-floating">
+                                <p>Middle Name*: </p>
+                                <input type="email" class="form-control" id="mail" placeholder="Middle Name">
+                                </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-floating">
+                                <p>Emergency Mobile Number*: </p>
+                                <input type="text" class="form-control" id="mobile" placeholder="Your Mobile">
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-floating">
+                                <p>Religion*:  </p>
+                                <select class="form-select" id="service">
+                                    <option value="">--Select--</option>
+                                    <option value="">Hindu</option>
+                                    <option value="">Muslim</option>
+                                    <option value="">Christian</option>
+                                    <option value="">Others</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-floating">
+                                <p>Permanent Address*:</p>
+                                <textarea class="form-control" placeholder="Leave a message here" id="message"
+                                    style="height: 130px"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s" id="appoinment">
+                    <div class="row g-3">
+                        <div class="col-sm-6">
+                            <div class="form-floating">
+                                <p>Last Name*:</p>
+                                <input type="text" class="form-control" id="name" placeholder="First Name">
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-floating">
+                                <p>Mobile Number*:</p>
+                                <input type="email" class="form-control" id="mail" placeholder="Middle Name">
+                                
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-floating">
+                                <p>Date of Birth*:</p>
+                                <input type="date" class="form-control" id="mobile" placeholder="Your Mobile">
+                        
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-floating">
+                                <p>Gender *</p>
+
+                                <input type="radio" id="html" name="fav_language" value="HTML">Male
+                                <input type="radio" id="css" name="fav_language" value="CSS">Female
+                                <input type="radio" id="javascript" name="fav_language" value="JavaScript">Others
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-floating">
+                                <p>Current Address*:</p>
+                                <textarea class="form-control" placeholder="Leave a message here" id="message"
+                                    style="height: 130px"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+</section>
+    <br><br>
+    <!-- Appoinment Start -->
+    <p style="display: block; color: black; font-size: 20px; background-color: aqua;">Staff Details</p>
+    <div class="container-fluid py-5" id="sliver">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s" id="appoinment">
+                    <div class="row g-3">
+                        <div class="col-sm-6">
+                            <div class="form-floating">
+                                <p>Employee Status*:</p>
+                                <select class="form-select" id="service">
+                                    <option value="">--Select--</option>
+                                    <option value="">Hindu</option>
+                                    <option value="">Muslim</option>
+                                    <option value="">Christian</option>
+                                    <option value="">Others</option>
+                                </select>
+                            </div>
+                        </div><div class="col-sm-6">
+                            <div class="form-floating">
+                                <p>Designation*:</p>
+                                <select class="form-select" id="service">
+                                    <option value="">--Select--</option>
+                                    <option value="">Hindu</option>
+                                    <option value="">Muslim</option>
+                                    <option value="">Christian</option>
+                                    <option value="">Others</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-floating">
+                                <p>Trained As*:</p>
+                                <select class="form-select" id="service">
+                                    <option value="">--Select--</option>
+                                    <option value="">Hindu</option>
+                                    <option value="">Muslim</option>
+                                    <option value="">Christian</option>
+                                    <option value="">Others</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-floating">
+                                <p>Qualification Type*:</p>
+                                <select class="form-select" id="service">
+                                    <option value="">--Select--</option>
+                                    <option value="">Hindu</option>
+                                    <option value="">Muslim</option>
+                                    <option value="">Christian</option>
+                                    <option value="">Others</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-floating">
+                                <p>CTET Qualified: *</p>
+
+                                <input type="radio" id="html" name="fav_language" value="HTML">Yes
+                                <input type="radio" id="css" name="fav_language" value="CSS">No
+                            </div>
+                        </div>
+                        
+                        <div class="col-sm-6">
+                            <div class="form-floating">
+                                <p>Staff Type: *</p>
+
+                                <input type="radio" id="html" name="fav_language" value="HTML">Teaching
+                                <input type="radio" id="css" name="fav_language" value="CSS">Non Teaching
+                                <input type="radio" id="javascript" name="fav_language" value="JavaScript">Transport
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s" id="appoinment">
+                    <div class="row g-3">
+                        <div class="col-sm-6">
+                            <div class="form-floating">
+                                <p>Staff Department*:</p>
+                                <select class="form-select" id="service">
+                                    <option value="">--Select--</option>
+                                    <option value="">Hindu</option>
+                                    <option value="">Muslim</option>
+                                    <option value="">Christian</option>
+                                    <option value="">Others</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-floating">
+                                <p>Education Qualification*:</p>
+                                <select class="form-select" id="service">
+                                    <option value="">--Select--</option>
+                                    <option value="">Hindu</option>
+                                    <option value="">Muslim</option>
+                                    <option value="">Christian</option>
+                                    <option value="">Others</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-floating">
+                                <p>Access Level*:</p>
+                                <select class="form-select" id="service">
+                                    <option value="">--Select--</option>
+                                    <option value="">Hindu</option>
+                                    <option value="">Muslim</option>
+                                    <option value="">Christian</option>
+                                    <option value="">Others</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-floating">
+                                <p>Employement Category*:</p>
+                                <select class="form-select" id="service">
+                                    <option value="">--Select--</option>
+                                    <option value="">Hindu</option>
+                                    <option value="">Muslim</option>
+                                    <option value="">Christian</option>
+                                    <option value="">Others</option>
+                                </select>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<br><br>
+<p style="display: block; color: black; font-size: 20px; background-color: aqua;">Other Details</p>
+
+    <div class="container-fluid py-5" id="sliver">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s" id="appoinment">
+                    <div class="row g-3">
+                        <div class="col-sm-6">
+                            <div class="form-floating">
+                                <p>Aadhar Number*:</p>
+                                <input type="text" class="form-control" id="name" placeholder="First Name">
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-floating">
+                                <p>Pan Number*:</p>
+                                <input type="email" class="form-control" id="mail" placeholder="Middle Name">
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-floating">
+                                <p>Date of Joining*:</p>
+                                <input type="date" class="form-control" id="mobile" placeholder="Your Mobile">
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-floating">
+                                <p>Govt. Id*:</p>
+                                <input type="email" class="form-control" id="mail" placeholder="Middle Name">
+                            </div>
+                        </div>
+                        
+                        <div class="col-sm-6">
+                            <div class="form-floating">
+                                <button class="buttonn button1" style="border-radius: 10px;">Save and Continue</button>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+          
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s" id="appoinment">
+                    <div class="row g-3">
+                        <div class="col-sm-6">
+                            <div class="form-floating">
+                                <p>Citizenship*:</p>
+                                <select class="form-select" id="service">
+                                    <option value="">--Select--</option>
+                                    <option value="">Indian</option>
+                                    <option value="">Others</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-floating">
+                                <p>Staff Reference Code*:</p>
+                                <input type="email" class="form-control" id="mail" placeholder="Middle Name">
+                                
+                            </div>
+                        </div>
+                        
+
+                        <div class="col-sm-6">
+                            <div class="form-floating">
+                                <p>Salary Pay Type: *</p>
+
+                                <input type="radio" id="html" name="fav_language" value="HTML">Consolidate
+                                
+                                <input type="radio" id="css" name="fav_language" value="CSS">Pay
+                                <input type="radio" id="javascript" name="fav_language" value="JavaScript">Others
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
