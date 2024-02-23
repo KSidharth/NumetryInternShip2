@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Functions</h1>
+<script>
+var names = ['ajay','amar','kiran','rahul'];
+function mainFunction(callback) {
+document.write("Performing operation...\n");
+document.write("<br>");    
+names.forEach(callback);
+
+}
+function callbackFunction(name) {
+document.write("Result: " + name);
+document.write("<br>");    
+
+}
+mainFunction(callbackFunction);
+
+</script>
+</body>
+</html>
